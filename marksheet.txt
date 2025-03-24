@@ -1,0 +1,29 @@
+{
+  double eng, urdu, isl, obt, per;
+
+  eng = 60;
+  urdu = 45;
+  isl = 60;
+
+  obt = eng + urdu + isl;
+  per = (obt / 350) * 100;
+  print("obatined marks $obt ");
+  print("percentage ${per.toStringAsFixed(2)}");
+  
+  if(per <= 100 && per >= 80){
+    print("Grade A1"); 
+  }else if(per <= 79 && per >= 70){
+    print("Grade A");
+    
+  }else if(per <= 69 && per >= 60){
+    print("Grade B");
+    
+  }else if(per <= 59 && per >= 50){
+    print("Grade C");
+    
+  }else if(per <= 49 && per >= 40){
+    print("chutti kro");
+  }
+  
+  
+  
