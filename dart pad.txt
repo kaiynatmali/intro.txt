@@ -1,0 +1,12 @@
+void main() {
+  String name = "KMA";
+
+  String email = "KMA@gmail.com";
+  String password = "baloch12-";
+
+  String emaillogin = "KMA@gmail.com";
+  String passwordlogin = "baloch12-";
+
+  if ((emaillogin == email) && (passwordlogin == password)) ;
+  print("account successfully login");
+}
